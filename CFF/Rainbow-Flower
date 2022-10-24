@@ -1,0 +1,28 @@
+from turtle import *
+
+title("rainbow spiral")
+speed(0)
+bgcolor("black")
+r,g,b=255,0,0
+
+for i in range(500):
+    colormode(255)
+    if i<220//3:
+        g+=3
+    elif i<220*2//3:
+        r-=3
+    elif i<220:
+        b+=3
+    elif i<220*4//3:
+        g-=3
+    elif i<220*5//3:
+        r+=3
+    else:
+        b-=3
+    circle(300-i,90)
+    lt(90)
+    circle(300-i,90)
+    left(18)
+    pencolor(r,g,b)
+
+mainloop()
