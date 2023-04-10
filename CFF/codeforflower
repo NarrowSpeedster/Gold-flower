@@ -2,7 +2,7 @@ from turtle import *
 
 title("gold_flower")
 bgcolor("white")
-speed(5)
+speed(50)
 def fleur():
     for i in range(800):
         circle(240-i,90)
