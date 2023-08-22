@@ -1,5 +1,5 @@
 from turtle import *
-
+# Creating a Flower from The Turtle command in Pygame.
 title("gold_flower")
 bgcolor("white")
 speed(50)
