@@ -26,3 +26,4 @@ for i in range(500):
     pencolor(r,g,b)
 
 mainloop()
+# Testing Movements with Numbers.
