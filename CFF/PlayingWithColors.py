@@ -24,3 +24,7 @@ for I in range (360):
         t.circle(80)
         t.circle(90)
         t.circle(100)
+        t.circle(150)
+        t.circle(120)
+        t.circle(200)
+        t.circle(250)
