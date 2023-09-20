@@ -14,6 +14,7 @@ for I in range (360):
     t.fd(1)
     for j in range (2):
         t.left(2)
+        t.right(2)
         t.circle(10)
         t.circle(20)
         t.circle(30)
@@ -24,7 +25,5 @@ for I in range (360):
         t.circle(80)
         t.circle(90)
         t.circle(100)
-        t.circle(150)
         t.circle(120)
-        t.circle(200)
-        t.circle(250)
+        
