@@ -13,7 +13,7 @@ for I in range (360):
     t.left(1)
     t.fd(1)
     for j in range (2):
-        t.left(2)
+        t.left(1)
         t.circle(10)
         t.circle(20)
         t.circle(30)
