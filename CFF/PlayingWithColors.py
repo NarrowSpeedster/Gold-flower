@@ -19,3 +19,8 @@ for I in range (360):
         t.circle(30)
         t.circle(40)
         t.circle(50)
+        t.circle(60)
+        t.circle(70)
+        t.circle(80)
+        t.circle(90)
+        t.circle(100)
